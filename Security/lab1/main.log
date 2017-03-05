@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  27 FEB 2017 10:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  3 MAR 2017 02:24
 entering extended mode
 **./main.tex
 (main.tex
@@ -419,9 +419,6 @@ Package caption Info: End \AtBeginDocument code.
 (D:\texmfs\install\tex\latex\ucs\uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
-(D:\texmfs\install\tex\latex\ucs\uni-33.def
-File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
-)
 
 LaTeX Font Warning: Font shape `T2A/ftm/bx/n' undefined
 (Font)              using `T2A/ftm/m/n' instead on input line 148.
@@ -755,10 +752,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
  ) 
 Here is how much of TeX's memory you used:
- 14111 strings out of 493335
- 196380 string characters out of 3143659
+ 13892 strings out of 493335
+ 193911 string characters out of 3143659
  267496 words of memory out of 3000000
- 17446 multiletter control sequences out of 15000+200000
+ 17230 multiletter control sequences out of 15000+200000
  6853 words of font info for 18 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,8n,39p,777b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -766,9 +763,9 @@ Here is how much of TeX's memory you used:
 a\fonts\pk\ljfour\unknown\unknown\dpi600\larm1000.pk> <D:\texmfs/data\fonts\pk\
 ljfour\lh\lh-t2a\dpi600\larm2074.pk> <D:\texmfs/data\fonts\pk\ljfour\lh\lh-t2a\
 dpi600\larm1200.pk>
-Output written on main.pdf (9 pages, 1222896 bytes).
+Output written on main.pdf (9 pages, 1222943 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
+ 398 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)
  221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
