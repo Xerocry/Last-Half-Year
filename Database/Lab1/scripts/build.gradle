@@ -1,0 +1,41 @@
+group 'com.xerocry'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'javax.validation', name: 'validation-api', version: '1.1.0.Final'
+}
+
+dependencies {
+    compile group: 'org.postgresql', name: 'postgresql', version: '9.4.1212.jre7'
+    compile 'io.ebean:persistence-api:2.2.1'
+    compile 'io.ebean:ebean:10.1.6'
+    compile 'io.ebean:ebean-querybean:10.1.1'
+    compile group: 'io.ebean', name: 'querybean-generator', version: '10.1.2'
+    compile group: 'org.assertj', name: 'assertj-core', version: '3.6.2'
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.23'
+    compile group: 'org.testng', name: 'testng', version: '6.10'
+
+}
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "gradle.plugin.org.kt3k:ebean-enhance-plugin:3.0.0"
+        classpath group: 'org.postgresql', name: 'postgresql', version: '9.4.1212.jre7'
+    }
+}
+
+apply plugin: "com.github.kt3k.ebean.enhance"
