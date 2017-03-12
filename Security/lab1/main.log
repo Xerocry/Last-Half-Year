@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  3 MAR 2017 02:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  13 MAR 2017 01:20
 entering extended mode
 **./main.tex
 (main.tex
@@ -301,6 +301,30 @@ LaTeX Warning: Unused global option(s):
 
 (main.aux
 
+LaTeX Warning: Label `img:tracert_ans' multiply defined.
+
+
+LaTeX Warning: Label `img:tracert_ans' multiply defined.
+
+
+LaTeX Warning: Label `img:frag_ping' multiply defined.
+
+
+LaTeX Warning: Label `img:frag_ping' multiply defined.
+
+
+LaTeX Warning: Label `img:frag_ping' multiply defined.
+
+
+LaTeX Warning: Label `img:tcp_reset' multiply defined.
+
+
+LaTeX Warning: Label `img:tcp_reset' multiply defined.
+
+
+LaTeX Warning: Label `img:tcp_reset' multiply defined.
+
+
 LaTeX Warning: Label `img:tcp_reset' multiply defined.
 
 )
@@ -419,6 +443,9 @@ Package caption Info: End \AtBeginDocument code.
 (D:\texmfs\install\tex\latex\ucs\uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
+(D:\texmfs\install\tex\latex\ucs\uni-33.def
+File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
+)
 
 LaTeX Font Warning: Font shape `T2A/ftm/bx/n' undefined
 (Font)              using `T2A/ftm/m/n' instead on input line 148.
@@ -452,7 +479,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 195.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 195.
- <pic/ipconfig.png, id=77, 671.50874pt x 676.5275pt>
+ <pic/ipconfig.png, id=81, 671.50874pt x 676.5275pt>
 File: pic/ipconfig.png Graphic file (type png)
 
 <use pic/ipconfig.png>
@@ -483,45 +510,45 @@ been already used, duplicate ignored
                    \relax 
 l.207 
        [1 <./pic/ipconfig.png>]
-<pic/ping.jpg, id=90, 908.64468pt x 341.02406pt>
+<pic/ping.jpg, id=94, 907.13907pt x 400.49625pt>
 File: pic/ping.jpg Graphic file (type jpg)
  <use pic/ping.jpg>
 Package pdftex.def Info: pic/ping.jpg used on input line 209.
-(pdftex.def)             Requested size: 454.32123pt x 170.51161pt.
+(pdftex.def)             Requested size: 453.56842pt x 200.24763pt.
 
-<pic/ping2.jpg, id=91, 904.1278pt x 338.01282pt>
+<pic/ping2.jpg, id=95, 909.3975pt x 404.26031pt>
 File: pic/ping2.jpg Graphic file (type jpg)
  <use pic/ping2.jpg>
 Package pdftex.def Info: pic/ping2.jpg used on input line 215.
-(pdftex.def)             Requested size: 452.06279pt x 169.00598pt.
+(pdftex.def)             Requested size: 454.69765pt x 202.12965pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 222.
+(babel)             in language append on input line 223.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 222.
+(babel)             in language append on input line 223.
 
-<pic/tracert1.png, id=92, 375.20175pt x 112.0185pt>
+<pic/tracert1.png, id=96, 375.20175pt x 112.0185pt>
 File: pic/tracert1.png Graphic file (type png)
  <use pic/tracert1.png>
-Package pdftex.def Info: pic/tracert1.png used on input line 227.
+Package pdftex.def Info: pic/tracert1.png used on input line 228.
 (pdftex.def)             Requested size: 300.16179pt x 89.6149pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pic/tracert2.png, id=93, 1445.4pt x 782.925pt>
+<pic/tracert2.png, id=97, 1445.4pt x 782.925pt>
 File: pic/tracert2.png Graphic file (type png)
  <use pic/tracert2.png>
-Package pdftex.def Info: pic/tracert2.png used on input line 233.
+Package pdftex.def Info: pic/tracert2.png used on input line 234.
 (pdftex.def)             Requested size: 433.62335pt x 234.8793pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pic/tracert3.png, id=94, 1445.4pt x 782.925pt>
+<pic/tracert3.png, id=98, 1294.08469pt x 370.38374pt>
 File: pic/tracert3.png Graphic file (type png)
  <use pic/tracert3.png>
-Package pdftex.def Info: pic/tracert3.png used on input line 241.
-(pdftex.def)             Requested size: 433.62335pt x 234.8793pt.
+Package pdftex.def Info: pic/tracert3.png used on input line 242.
+(pdftex.def)             Requested size: 388.22841pt x 111.11597pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -531,204 +558,325 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 249.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 250.
+(babel)             in language append on input line 249.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 250.
+(babel)             in language append on input line 249.
+[2 <./pic/ping.jpg> <./pic/ping2.jpg>]
+<pic/tracert4.png, id=105, 830.35219pt x 289.83281pt>
+File: pic/tracert4.png Graphic file (type png)
+ <use pic/tracert4.png>
+Package pdftex.def Info: pic/tracert4.png used on input line 251.
+(pdftex.def)             Requested size: 249.10757pt x 86.9505pt.
 
-Overfull \hbox (15.27591pt too wide) in paragraph at lines 251--252
+<pic/tracert5.png, id=106, 837.1275pt x 284.56313pt>
+File: pic/tracert5.png Graphic file (type png)
+ <use pic/tracert5.png>
+Package pdftex.def Info: pic/tracert5.png used on input line 257.
+(pdftex.def)             Requested size: 251.14018pt x 85.36958pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (6.6669pt too wide) in paragraph at lines 262--263
+[]\T2A/ftm/bx/n/10 “аким об-ра-зом со-став-л€-ет-с€ при-мер-ный марш-рут про-хо
+ж-де-ни€ IP-пакета до уз-ла с ад-ре-сом spbstu.ru. 
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 264.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 264.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 265.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 265.
+
+Overfull \hbox (15.27591pt too wide) in paragraph at lines 266--267
 []\T2A/ftm/bx/n/10 ѕопробуем ото-слать фраг-мен-ти-ро-ван-ный ping-запрос. ƒан-
 ный вид за-про-са ис-поль-зу-ет ICMP-протокол.
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 252.
+(babel)             in language append on input line 267.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 252.
+(babel)             in language append on input line 267.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 252.
+(babel)             in language append on input line 267.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 252.
-[2 <./pic/ping.jpg> <./pic/ping2.jpg>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 252.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 252.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 252.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 252.
- [3 <./pic/tracert1.png> <./pic/tracert2.png> <./pic/tracert3.png>]
-<pic/request1.jpg, id=108, 721.19438pt x 251.43938pt>
-File: pic/request1.jpg Graphic file (type jpg)
- <use pic/request1.jpg>
-Package pdftex.def Info: pic/request1.jpg used on input line 254.
-(pdftex.def)             Requested size: 504.83263pt x 176.00635pt.
+(babel)             in language append on input line 267.
+[3 <./pic/tracert1.png> <./pic/tracert2.png> <./pic/tracert3.png> <./pic/tracer
+t4.png>] <pic/frag_ping.png, id=117, 807.015pt x 38.39343pt>
+File: pic/frag_ping.png Graphic file (type png)
 
-Overfull \hbox (35.36214pt too wide) in paragraph at lines 254--255
+<use pic/frag_ping.png>
+Package pdftex.def Info: pic/frag_ping.png used on input line 269.
+(pdftex.def)             Requested size: 564.90665pt x 26.8752pt.
+
+Overfull \hbox (95.43616pt too wide) in paragraph at lines 269--270
  [] 
  []
 
+<pic/request1.jpg, id=118, 721.19438pt x 251.43938pt>
+File: pic/request1.jpg Graphic file (type jpg)
+ <use pic/request1.jpg>
+Package pdftex.def Info: pic/request1.jpg used on input line 277.
+(pdftex.def)             Requested size: 504.83263pt x 176.00635pt.
+
+Overfull \hbox (35.36214pt too wide) in paragraph at lines 277--278
+ [] 
+ []
+
+<pic/frag_ping2.png, id=119, 649.67719pt x 231.86626pt>
+File: pic/frag_ping2.png Graphic file (type png)
+
+<use pic/frag_ping2.png>
+Package pdftex.def Info: pic/frag_ping2.png used on input line 285.
+(pdftex.def)             Requested size: 454.77094pt x 162.30525pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pic/frag_ping_last.png, id=120, 656.4525pt x 340.27126pt>
+File: pic/frag_ping_last.png Graphic file (type png)
+
+<use pic/frag_ping_last.png>
+Package pdftex.def Info: pic/frag_ping_last.png used on input line 292.
+(pdftex.def)             Requested size: 459.51361pt x 238.18825pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 261.
+(babel)             in language append on input line 299.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 261.
-<pic/icmp_error.jpg, id=109, 877.77937pt x 317.68687pt>
+(babel)             in language append on input line 299.
+<pic/icmp_error.jpg, id=121, 877.77937pt x 317.68687pt>
 File: pic/icmp_error.jpg Graphic file (type jpg)
 
 <use pic/icmp_error.jpg>
-Package pdftex.def Info: pic/icmp_error.jpg used on input line 265.
+Package pdftex.def Info: pic/icmp_error.jpg used on input line 303.
 (pdftex.def)             Requested size: 526.67169pt x 190.61359pt.
 
-Overfull \hbox (57.2012pt too wide) in paragraph at lines 265--266
+Overfull \hbox (57.2012pt too wide) in paragraph at lines 303--304
  [] 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (D:\texmfs\install\tex\latex\ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-<pic/icmp_error2.jpg, id=110, 631.60968pt x 448.67625pt>
+<pic/icmp_error2.jpg, id=122, 631.60968pt x 448.67625pt>
 File: pic/icmp_error2.jpg Graphic file (type jpg)
 
 <use pic/icmp_error2.jpg>
-Package pdftex.def Info: pic/icmp_error2.jpg used on input line 272.
+Package pdftex.def Info: pic/icmp_error2.jpg used on input line 310.
 (pdftex.def)             Requested size: 315.80406pt x 224.33757pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 277.
+(babel)             in language append on input line 315.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 277.
+(babel)             in language append on input line 315.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 277.
+(babel)             in language append on input line 315.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 277.
-[4 <./pic/request1.jpg> <./pic/icmp_error.jpg>]
+(babel)             in language append on input line 315.
+[4 <./pic/tracert5.png> <./pic/frag_ping.png> <./pic/request1.jpg>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 278.
+(babel)             in language append on input line 316.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 278.
+(babel)             in language append on input line 316.
 
-<pic/arpR.png, id=117, 906.38625pt x 285.31593pt>
+<pic/arpR.png, id=131, 906.38625pt x 285.31593pt>
 File: pic/arpR.png Graphic file (type png)
  <use pic/arpR.png>
-Package pdftex.def Info: pic/arpR.png used on input line 281.
+Package pdftex.def Info: pic/arpR.png used on input line 320.
 (pdftex.def)             Requested size: 725.10999pt x 228.25305pt.
 
-Overfull \hbox (255.6395pt too wide) in paragraph at lines 281--282
+Overfull \hbox (255.6395pt too wide) in paragraph at lines 320--321
  [] 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 286.
+(babel)             in language append on input line 323.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 286.
+(babel)             in language append on input line 323.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 286.
+(babel)             in language append on input line 323.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 286.
-[5 <./pic/icmp_error2.jpg> <./pic/arpR.png>]
-<pic/arpA.jpg, id=124, 902.6222pt x 287.57437pt>
+(babel)             in language append on input line 323.
+[5 <./pic/frag_ping2.png> <./pic/frag_ping_last.png> <./pic/icmp_error.jpg>]
+<pic/arpA.jpg, id=139, 902.6222pt x 287.57437pt>
 File: pic/arpA.jpg Graphic file (type jpg)
  <use pic/arpA.jpg>
-Package pdftex.def Info: pic/arpA.jpg used on input line 289.
-(pdftex.def)             Requested size: 631.83124pt x 201.30069pt.
+Package pdftex.def Info: pic/arpA.jpg used on input line 327.
+(pdftex.def)             Requested size: 541.5775pt x 172.54594pt.
 
-Overfull \hbox (162.36075pt too wide) in paragraph at lines 289--290
+Overfull \hbox (72.10701pt too wide) in paragraph at lines 327--328
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 332.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 332.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 332.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 332.
+[6 <./pic/icmp_error2.jpg> <./pic/arpR.png>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 334.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 334.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 335.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 335.
+
+<pic/tcp_syn.png, id=147, 1284.8pt x 1001.7425pt>
+File: pic/tcp_syn.png Graphic file (type png)
+ <use pic/tcp_syn.png>
+Package pdftex.def Info: pic/tcp_syn.png used on input line 339.
+(pdftex.def)             Requested size: 513.9109pt x 400.6899pt.
+
+Overfull \hbox (44.44041pt too wide) in paragraph at lines 339--340
  [] 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 294.
+(babel)             in language append on input line 344.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 294.
+(babel)             in language append on input line 344.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 295.
+(babel)             in language append on input line 344.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 295.
-<pic/tcp_syn.png, id=125, 1284.8pt x 1001.7425pt>
-File: pic/tcp_syn.png Graphic file (type png)
- <use pic/tcp_syn.png>
-Package pdftex.def Info: pic/tcp_syn.png used on input line 299.
-(pdftex.def)             Requested size: 385.44298pt x 300.52507pt.
+(babel)             in language append on input line 344.
+[7 <./pic/arpA.jpg> <./pic/tcp_syn.png>]
 
-<pic/tcp_syn_ack.png, id=126, 1284.8pt x 1001.7425pt>
+LaTeX Font Warning: Font shape `T2A/ftm/m/it' undefined
+(Font)              using `T2A/ftm/m/n' instead on input line 348.
+
+<pic/tcp_syn_ack.png, id=155, 1284.8pt x 1001.7425pt>
 File: pic/tcp_syn_ack.png Graphic file (type png)
 
 <use pic/tcp_syn_ack.png>
-Package pdftex.def Info: pic/tcp_syn_ack.png used on input line 305.
-(pdftex.def)             Requested size: 385.44298pt x 300.52507pt.
- <pic/ack.png, id=127, 1445.4pt x 782.925pt>
+Package pdftex.def Info: pic/tcp_syn_ack.png used on input line 356.
+(pdftex.def)             Requested size: 513.9109pt x 400.6899pt.
+
+Overfull \hbox (44.44041pt too wide) in paragraph at lines 356--357
+ [] 
+ []
+
+<pic/ack.png, id=156, 1445.4pt x 782.925pt>
 File: pic/ack.png Graphic file (type png)
+ <use pic/ack.png>
+Package pdftex.def Info: pic/ack.png used on input line 362.
+(pdftex.def)             Requested size: 578.14977pt x 313.16446pt.
 
-<use pic/ack.png>
-Package pdftex.def Info: pic/ack.png used on input line 311.
-(pdftex.def)             Requested size: 433.62335pt x 234.8793pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (108.67928pt too wide) in paragraph at lines 362--363
+ [] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 315.
+(babel)             in language append on input line 368.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 315.
-<pic/tcp_reset.png, id=128, 1445.4pt x 782.925pt>
+(babel)             in language append on input line 368.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 370.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 370.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 370.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 370.
+[8 <./pic/tcp_syn_ack.png>] <pic/tcp_reset.png, id=165, 1445.4pt x 782.925pt>
 File: pic/tcp_reset.png Graphic file (type png)
- <use pic/tcp_reset.png>
-Package pdftex.def Info: pic/tcp_reset.png used on input line 318.
-(pdftex.def)             Requested size: 433.62335pt x 234.8793pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 322.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 322.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 322.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 322.
 
-[6 <./pic/arpA.jpg> <./pic/tcp_syn.png>]
+<use pic/tcp_reset.png>
+Package pdftex.def Info: pic/tcp_reset.png used on input line 372.
+(pdftex.def)             Requested size: 578.14977pt x 313.16446pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (108.67928pt too wide) in paragraph at lines 372--373
+ [] 
+ []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 322.
+(babel)             in language append on input line 376.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 322.
+(babel)             in language append on input line 376.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 322.
+(babel)             in language append on input line 376.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 322.
-[7 <./pic/tcp_syn_ack.png> <./pic/ack.png>]
+(babel)             in language append on input line 376.
+[9 <./pic/ack.png> <./pic/tcp_reset.png>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 323.
+(babel)             in language append on input line 378.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 323.
+(babel)             in language append on input line 378.
 
-<pic/tcp_no.jpg, id=144, 459.96844pt x 187.45032pt>
+<pic/fyn1.png, id=172, 643.6547pt x 332.74312pt>
+File: pic/fyn1.png Graphic file (type png)
+ <use pic/fyn1.png>
+Package pdftex.def Info: pic/fyn1.png used on input line 381.
+(pdftex.def)             Requested size: 450.5552pt x 232.91858pt.
+
+<pic/fyn2.png, id=173, 640.64343pt x 349.305pt>
+File: pic/fyn2.png Graphic file (type png)
+ <use pic/fyn2.png>
+Package pdftex.def Info: pic/fyn2.png used on input line 388.
+(pdftex.def)             Requested size: 448.44734pt x 244.51183pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 392.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 392.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 392.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 392.
+ [10 <./pic/fyn1.png> <./pic/fyn2.png>] <pic/fyn3.png, id=180, 645.16031pt x 33
+5.00156pt>
+File: pic/fyn3.png Graphic file (type png)
+
+<use pic/fyn3.png>
+Package pdftex.def Info: pic/fyn3.png used on input line 395.
+(pdftex.def)             Requested size: 451.60913pt x 234.49948pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 403.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 403.
+ <pic/tcp_no.jpg, id=181, 459.96844pt x 187.45032pt>
 File: pic/tcp_no.jpg Graphic file (type jpg)
- <use pic/tcp_no.jpg>
-Package pdftex.def Info: pic/tcp_no.jpg used on input line 326.
-(pdftex.def)             Requested size: 413.96777pt x 168.7037pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 332.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 332.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 349.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 349.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 349.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 349.
 
-[8 <./pic/tcp_reset.png> <./pic/tcp_no.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+<use pic/tcp_no.jpg>
+Package pdftex.def Info: pic/tcp_no.jpg used on input line 407.
+(pdftex.def)             Requested size: 459.96732pt x 187.44984pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 413.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 413.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 430.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 430.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 430.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 430.
+ [11 <./pic/fyn3.png> <./pic/tcp_no.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
  (main.aux
 LaTeX Font Info:    Try loading font information for OT1+ftm on input line 20.
 LaTeX Font Info:    No file OT1ftm.fd. on input line 20.
@@ -738,10 +886,10 @@ LaTeX Font Warning: Font shape `OT1/ftm/m/n' undefined
 (Font)              using `OT1/cmr/m/n' instead on input line 20.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 430.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 612FD39A9DA887426BB8D713014AA8AB;2978.
+(rerunfilecheck)             Checksum: 67C05163F441658A4C874FDC70A5F71D;3215.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -749,23 +897,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 430.
  ) 
 Here is how much of TeX's memory you used:
- 13892 strings out of 493335
- 193911 string characters out of 3143659
- 267496 words of memory out of 3000000
- 17230 multiletter control sequences out of 15000+200000
+ 14169 strings out of 493335
+ 197378 string characters out of 3143659
+ 268350 words of memory out of 3000000
+ 17481 multiletter control sequences out of 15000+200000
  6853 words of font info for 18 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,8n,39p,777b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,39p,785b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
  <D:\texmfs/data\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <D:\texmfs/dat
 a\fonts\pk\ljfour\unknown\unknown\dpi600\larm1000.pk> <D:\texmfs/data\fonts\pk\
 ljfour\lh\lh-t2a\dpi600\larm2074.pk> <D:\texmfs/data\fonts\pk\ljfour\lh\lh-t2a\
 dpi600\larm1200.pk>
-Output written on main.pdf (9 pages, 1222943 bytes).
+Output written on main.pdf (12 pages, 1563960 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 439 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 
