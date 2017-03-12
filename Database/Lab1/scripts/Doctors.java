@@ -13,6 +13,7 @@ import java.time.LocalDate;
 public class Doctors extends Model {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "doctor_id")
     Long id;
 

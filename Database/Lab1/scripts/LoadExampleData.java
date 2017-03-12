@@ -1,29 +1,3 @@
-package com.xerocry.service;
-
-/**
- * Created by raskia on 2/23/2017.
- */
-import com.xerocry.domain.*;
-import io.ebean.Ebean;
-import io.ebean.EbeanServer;
-import javafx.scene.media.EqualizerBand;
-import org.assertj.core.internal.cglib.core.Local;
-//import com.xerocry.domain.Address;
-//import com.xerocry.domain.Contact;
-//import com.xerocry.domain.Country;
-//import com.xerocry.domain.Customer;
-//import com.xerocry.domain.Order;
-//import com.xerocry.domain.Order.Status;
-//import com.xerocry.domain.OrderDetail;
-//import com.xerocry.domain.Product;
-
-import javax.print.Doc;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.UUID;
-
 public class LoadExampleData {
 
     private static boolean runOnce;

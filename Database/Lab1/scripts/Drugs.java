@@ -13,6 +13,7 @@ import java.util.List;
 public class Drugs extends Model {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "drug_id")
     Long drugId;
 

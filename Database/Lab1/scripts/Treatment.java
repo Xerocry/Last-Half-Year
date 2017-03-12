@@ -1,19 +1,10 @@
-package com.xerocry.domain;
 
-import io.ebean.Model;
-
-import javax.persistence.*;
-import java.time.LocalDate;
-import java.util.List;
-
-/**
- * Created by raskia on 2/23/2017.
- */
 @Entity
 @Table(name = "Treatment")
 public class Treatment extends Model {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "treatment_id")
     Long id;
 

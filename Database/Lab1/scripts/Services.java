@@ -1,20 +1,9 @@
-package com.xerocry.domain;
 
-import io.ebean.Model;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
-import java.util.List;
-
-/**
- * Created by raskia on 2/23/2017.
- */
 @Entity
 public class Services extends Model {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "service_id")
     Long serviceId;
 

@@ -13,6 +13,7 @@ import javax.persistence.Id;
 public class DiseasesTypes extends Model {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long type_id;
 
     @Column(length = 50, name = "dis_type")

@@ -1,17 +1,9 @@
-package com.xerocry.domain;
 
-import io.ebean.Model;
-
-import javax.persistence.*;
-import java.time.LocalDate;
-
-/**
- * Created by raskia on 2/24/2017.
- */
 @Entity
 public class Grants extends Model {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "grant_id")
     Long grantId;
 

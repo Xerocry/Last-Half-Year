@@ -1,14 +1,4 @@
-package com.xerocry.domain;
 
-import io.ebean.Model;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
-
-/**
- * Created by raskia on 2/23/2017.
- */
 @Entity
 public class Diseases extends Model {
     @Id

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  28 FEB 2017 10:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  10 MAR 2017 17:58
 entering extended mode
 **./main.tex
 (main.tex
@@ -592,117 +592,108 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 67.
  [12]) (scripts/Patients.java) (scripts/Grants.java
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 40.
+(babel)             in language append on input line 38.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 40.
+(babel)             in language append on input line 38.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 40.
+(babel)             in language append on input line 38.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 40.
+(babel)             in language append on input line 38.
 
 [13]) (scripts/Drugs.java
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 9.
+(babel)             in language append on input line 15.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 9.
+(babel)             in language append on input line 15.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 9.
+(babel)             in language append on input line 15.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 9.
+(babel)             in language append on input line 15.
  [14]) (scripts/Diseases.java
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 16.
+(babel)             in language append on input line 22.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 16.
+(babel)             in language append on input line 22.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 16.
+(babel)             in language append on input line 22.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 16.
+(babel)             in language append on input line 22.
  [15])
 (scripts/Treatment.java
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 36.
+(babel)             in language append on input line 47.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 36.
+(babel)             in language append on input line 47.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 36.
+(babel)             in language append on input line 47.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 36.
- [16]
+(babel)             in language append on input line 47.
+ [16]) (scripts/Services.java
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 108.
+(babel)             in language append on input line 8.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 108.
+(babel)             in language append on input line 8.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 108.
+(babel)             in language append on input line 8.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 108.
- [17]) (scripts/Services.java)
+(babel)             in language append on input line 8.
+ [17])
 (scripts/Payments.java
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 3.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 3.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 3.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 3.
- [18]) (scripts/DiseasesTypes.java
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 16.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 16.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 16.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 16.
- [19])
+(babel)             in language append on input line 37.
+ [18]) (scripts/DiseasesTypes.java)
 (scripts/LoadExampleData.java
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 48.
+(babel)             in language append on input line 20.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 48.
+(babel)             in language append on input line 20.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 48.
+(babel)             in language append on input line 20.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 48.
+(babel)             in language append on input line 20.
+ [19]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 96.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 96.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 96.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 96.
  [20]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 123.
+(babel)             in language append on input line 168.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 123.
+(babel)             in language append on input line 168.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 123.
+(babel)             in language append on input line 168.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 123.
+(babel)             in language append on input line 168.
  [21]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 198.
+(babel)             in language append on input line 243.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 198.
+(babel)             in language append on input line 243.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 198.
+(babel)             in language append on input line 243.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 198.
+(babel)             in language append on input line 243.
  [22]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 272.
+(babel)             in language append on input line 319.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 272.
+(babel)             in language append on input line 319.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 272.
+(babel)             in language append on input line 319.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 272.
- [23]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 348.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 348.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 348.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 348.
- [24])
+(babel)             in language append on input line 319.
+ [23])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 264.
@@ -712,7 +703,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 264.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 264.
- [25]
+ [24]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
@@ -722,13 +713,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
  ) 
 Here is how much of TeX's memory you used:
- 15067 strings out of 493335
- 208344 string characters out of 3143659
- 607229 words of memory out of 3000000
- 16795 multiletter control sequences out of 15000+200000
+ 14987 strings out of 493335
+ 207082 string characters out of 3143659
+ 603144 words of memory out of 3000000
+ 16788 multiletter control sequences out of 15000+200000
  15883 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,50p,1026b,2085s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,6n,50p,1026b,2085s stack positions out of 5000i,500n,10000p,200000b,50000s
  <D:\texmfs/data\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1000.pk> <D:\texmfs/dat
 a\fonts\pk\ljfour\lh\lh-t2a\dpi600\lait1000.pk> <D:\texmfs/data\fonts\pk\ljfour
 \lh\lh-t2a\dpi600\lati1000.pk> <D:\texmfs/data\fonts\pk\ljfour\lh\lh-t2a\dpi600
@@ -742,9 +733,9 @@ s\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk><D:/texmfs/install/fonts/type1/public/
 amsfonts/cm/cmmi10.pfb><D:/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.
 pfb><D:/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/texmfs/ins
 tall/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (26 pages, 525185 bytes).
+Output written on main.pdf (25 pages, 509639 bytes).
 PDF statistics:
- 2530 PDF objects out of 2984 (max. 8388607)
- 1623 named destinations out of 1728 (max. 500000)
+ 2440 PDF objects out of 2487 (max. 8388607)
+ 1550 named destinations out of 1728 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

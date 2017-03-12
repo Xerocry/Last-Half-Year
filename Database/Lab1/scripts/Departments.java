@@ -2,6 +2,7 @@
 public class Departments extends Model {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long depart_id;
 
     @Column(length=50, nullable = false)
