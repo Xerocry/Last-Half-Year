@@ -193,7 +193,6 @@
 \end{enumerate}
 
 \section{Конфигурация компьютера в сети}
-\ref{img:system}
 \begin{figure}[h]
 	\center{\includegraphics[scale=0.50]{ipconfig}}
 	\caption{Конфигурация сети}
@@ -239,7 +238,7 @@
 	Первый пакет трассировки маршрута отправляется с TTL равным 1. Это значит, что на первом же маршрутизаторе пакет будет уничтожен и нам придет сообщение об ошибке.
 
 	\begin{figure}[h!]
-		\center{\includegraphics[scale=0.3]{tracert3}}
+		\center{\includegraphics[scale=0.4]{tracert3}}
 		\caption{Ответ на первый пакет трассировки}
 		\label{img:tracert_ans}
 	\end{figure}
@@ -247,14 +246,15 @@
 	В сообщении об ошибке указан тип ICMP-пакета – 11.0, что означает, что время жизни пакета истекло. Сообщение пришло от маршрутизатора сети, который имеет адрес 192.168.1.1. 
 	Аналогично продолжается трассировка маршрута дальше с постепенным инкрементом параметра TTL.
 	
+	\newpage
 	\begin{figure}[h!]
-		\center{\includegraphics[scale=0.3]{tracert4}}
+		\center{\includegraphics[scale=0.6]{tracert4}}
 		\caption{Второй пакет трассировки}
 		\label{img:tracert_ans}
 	\end{figure}
 
 	\begin{figure}[h!]
-		\center{\includegraphics[scale=0.3]{tracert5}}
+		\center{\includegraphics[scale=0.6]{tracert5}}
 		\caption{Ответ на второй пакет трассировки}
 		\label{img:tracert_ans}
 	\end{figure}
@@ -265,8 +265,9 @@
 	\subsubsection{Фрагментированный ping}
 		Попробуем отослать фрагментированный ping-запрос. Данный вид запроса использует ICMP-протокол. Для фрагментации пакета необходимо указать его размер, превышающий MTU (maximum transmission unit) - максимальный размер полезного блока данных одного пакета, который может быть передан протоколом без фрагментации. Для протокола Ethernet обычно это чуть больше 1500 байт. Для фрагментации пакета на 3 части укажем размер – 4000 байт.
 		
+		\newpage
 		\begin{figure}[h!]
-			\center{\includegraphics[scale=0.7]{frag_ping}}
+			\center{\includegraphics[scale=0.6]{frag_ping}}
 			\caption{Сегментирование пакетов}
 			\label{img:frag_ping}
 		\end{figure}
@@ -287,10 +288,11 @@
 			\label{img:frag_ping}
 		\end{figure}
 	
+		\newpage
 		Видим, что смещение в данном случае уже ненулевое. Последний пакет выглядит следующим образом:
 		\begin{figure}[h!]
 			\center{\includegraphics[scale=0.7]{frag_ping_last}}
-			\caption{Второй фрагмент запроса}
+			\caption{Последний фрагментированный пакет}
 			\label{img:frag_ping}
 		\end{figure}
 	
@@ -299,6 +301,7 @@
 	\subsubsection{Несуществующий хост}
 	Попробуем пронаблюдать ошибку типа 3.1 (целевой узел недостижим). Для этого отправим ping-запрос на адрес, которого не существует.																																						
 	В пакете можно наблюдать типичный ping-запрос (ICMP-пакет типа 8.0).
+
 	\begin{figure}[h!]
 		\center{\includegraphics[scale=0.6]{icmp_error}}
 		\caption{Ping-запрос}
@@ -306,13 +309,14 @@
 	\end{figure}
 
 	А вот ответом на указанный выше запрос будет ICMP-пакет типа 3.1, свидетельствующий об ошибке «целевой узел недостижим». При этом, в ответе, в качестве данных пакета отправляется заголовок того пакета, на который пришел ответ.
+	\newpage
 	\begin{figure}[h!]
-		\center{\includegraphics[scale=0.5]{icmp_error2}}
+		\center{\includegraphics[scale=0.8]{icmp_error2}}
 		\caption{ICMP-ответ}
 		\label{img:error_ping2}
 	\end{figure}
 
-\newpage
+
 \subsection{ARP протокол}
 В пакете указывается его тип (поле Opcode) – запрос, а так же целевой IP-адрес для которого запрашивается MAC-адрес. MAC-адрес цели при этом обнулен.
 
@@ -324,12 +328,10 @@
 
 ARP-ответ отсылается уже на тот адрес, с которого исходил ARP-запрос. В пакете указывается его тип (поле Opcode) – ответ, а так же заполненный MAC-адрес цели.
 \begin{figure}[h!]
-	\center{\includegraphics[scale=0.6]{arpA}}
+	\center{\includegraphics[scale=0.8]{arpA}}
 	\caption{ARP ответ}
 	\label{img:arp_answ}
 \end{figure}
-
-\newpage
 
 \subsection{TCP-протокол}
 	\subsubsection{Установление соединения}
@@ -341,7 +343,6 @@ ARP-ответ отсылается уже на тот адрес, с котор
 			\label{img:tcp_syn}
 		\end{figure}
 		
-		\newpage
 		В заголовке TCP-пакета можно увидеть следующие поля:
 		
 		\begin{enumerate}
@@ -350,16 +351,18 @@ ARP-ответ отсылается уже на тот адрес, с котор
 			\item \textit{Acknowledgment Number} - номер подтверждения: 32 бита
 			Если бит ACK установлен, это поле содержит значение следующего порядкового номера, который отправитель сегмента ожидает получить. После организации соединения это значение передается всегда.
 		\end{enumerate}
+	\newpage
 	
 		Сервер получает сегмент, запоминает номер последовательности и посылает клиенту сегмент с номером последовательности и флагами SYN и ACK.
+		\newpage
 		\begin{figure}[h!]
-			\center{\includegraphics[scale=0.4]{tcp_syn_ack}}
+			\center{\includegraphics[scale=0.6]{tcp_syn_ack}}
 			\caption{Ответ сервера на установление TCP-соединения}
 			\label{img:tcp_syn_ack}
 		\end{figure}
 		Если клиент получает сегмент с флагом SYN, то он запоминает номер последовательности и посылает сегмент с флагом ACK.
 		\begin{figure}[h!]
-			\center{\includegraphics[scale=0.4]{ack}}
+			\center{\includegraphics[scale=0.6]{ack}}
 			\caption{Подтверждение от клиента о получении ответа}
 			\label{img:tcp_ack}
 		\end{figure}
@@ -367,16 +370,17 @@ ARP-ответ отсылается уже на тот адрес, с котор
 		
 	\subsubsection{Разрыв соединения}
 		При разрыве соединения сервер отсылает клиенту пакет с установленным флагом RST.
-		\newpage
+
 		\begin{figure}[h!]
-			\center{\includegraphics[scale=0.4]{tcp_reset}}
+			\center{\includegraphics[scale=0.6]{tcp_reset}}
 			\caption{Пример пакета с флагом RST}
 			\label{img:tcp_reset}
 		\end{figure}
-	\newpage
 	
 	\subsubsection{Завершение соединения}
 	При завершении соединения происходит обмен пакетами с флагами FIN и ACK.
+	
+	\newpage
 	\begin{figure}[h!]
 		\center{\includegraphics[scale=0.7]{fyn1}}
 		\caption{Передача пакета с флагами FIN и ACK от сервера клиенту}
@@ -389,6 +393,7 @@ ARP-ответ отсылается уже на тот адрес, с котор
 		\caption{Подтверждение получения пакета}
 		\label{img:tcp_reset}
 	\end{figure}
+
 	\newpage
 
 	\begin{figure}[h!]
@@ -398,11 +403,10 @@ ARP-ответ отсылается уже на тот адрес, с котор
 	\end{figure}
 	Клиент посылает второй пакет с флагами FIN, ACK,после его отсылки клиент переходит в состояние
 	LAST-ACK, а сервер в состояние TIME-WAIT.
-
-
+	
 	\subsubsection{Установка соединения с отсутствующим портом}
 		При попытке подключения к отсутствующему порту, не приходит ACK и RST, поэтому клиент находится в подвешенном состоянии и ожидает ответа.
-		
+
 		\begin{figure}[h!]
 			\center{\includegraphics[scale=1]{tcp_no}}
 			\caption{Попытка tcp - соединения на sakh.com:65533}
