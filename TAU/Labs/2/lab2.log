@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  12 MAR 2017 18:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  13 MAR 2017 19:02
 entering extended mode
 **./lab2.tex
 (lab2.tex
@@ -1097,12 +1097,7 @@ Package babel Info: Redefining russian shorthand "~
 File: images/nfu.jpg Graphic file (type jpg)
  <use images/nfu.jpg>
 Package pdftex.def Info: images/nfu.jpg used on input line 226.
-(pdftex.def)             Requested size: 544.05309pt x 257.18872pt.
-
-Overfull \hbox (46.12984pt too wide) in paragraph at lines 226--227
- [][] 
- []
-
+(pdftex.def)             Requested size: 447.17407pt x 211.39137pt.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 343.
 Package babel Info: Redefining russian shorthand "~
@@ -1111,17 +1106,13 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 343.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 343.
+
 [3 <./images/nfu.jpg>] <images/nfn.jpg, id=79, 892.83563pt x 405.76593pt>
 File: images/nfn.jpg Graphic file (type jpg)
 
 <use images/nfn.jpg>
 Package pdftex.def Info: images/nfn.jpg used on input line 347.
-(pdftex.def)             Requested size: 598.19676pt x 271.86176pt.
-
-Overfull \hbox (100.27351pt too wide) in paragraph at lines 347--348
- [][] 
- []
-
+(pdftex.def)             Requested size: 446.41672pt x 202.88246pt.
 
 Overfull \hbox (38.70032pt too wide) detected at line 435
 []
@@ -1131,9 +1122,9 @@ Overfull \hbox (38.70032pt too wide) detected at line 435
 File: images/kf.jpg Graphic file (type jpg)
  <use images/kf.jpg>
 Package pdftex.def Info: images/kf.jpg used on input line 452.
-(pdftex.def)             Requested size: 566.92511pt x 338.44016pt.
+(pdftex.def)             Requested size: 507.70067pt x 303.08466pt.
 
-Overfull \hbox (69.00186pt too wide) in paragraph at lines 452--453
+Overfull \hbox (9.77742pt too wide) in paragraph at lines 452--453
  [][] 
  []
 
@@ -1145,37 +1136,37 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 457.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 465.
+(babel)             in language append on input line 476.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 465.
+(babel)             in language append on input line 476.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 465.
+(babel)             in language append on input line 476.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 465.
+(babel)             in language append on input line 476.
 [4
 
  <./images/nfn.jpg>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 504.
+(babel)             in language append on input line 518.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 504.
+(babel)             in language append on input line 518.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 504.
+(babel)             in language append on input line 518.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 504.
+(babel)             in language append on input line 518.
  [5 <./images/kf.jpg>]
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 589.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 589.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 595.
+(babel)             in language append on input line 605.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 595.
+(babel)             in language append on input line 605.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 595.
+(babel)             in language append on input line 605.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 595.
+(babel)             in language append on input line 605.
  [6]
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 619.
@@ -1186,32 +1177,32 @@ Package babel Info: Redefining russian shorthand "~
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 33.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 635.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 627.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 635.
+(babel)             in language append on input line 627.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 635.
+(babel)             in language append on input line 627.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 635.
+(babel)             in language append on input line 627.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 635.
+(babel)             in language append on input line 627.
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 635.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 627.
  (lab2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 635.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 635.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 627.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 627.
 Package rerunfilecheck Info: File `lab2.out' has not changed.
 (rerunfilecheck)             Checksum: 321DE8FDAD28F5A647C952464C7B45B7;1742.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 635.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 627.
  ) 
 Here is how much of TeX's memory you used:
  14017 strings out of 493335
  192670 string characters out of 3143659
- 333411 words of memory out of 3000000
+ 331411 words of memory out of 3000000
  17375 multiletter control sequences out of 15000+200000
  12482 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,43p,658b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,12n,43p,684b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
  <D:\texmfs/data\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk> <D:\texmfs/dat
 a\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <D:\texmfs/data\fonts\pk\ljfour
 \lh\lh-t2a\dpi600\labx2074.pk> <D:\texmfs/data\fonts\pk\ljfour\unknown\unknown\
@@ -1223,9 +1214,9 @@ mmi7.pfb><D:/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/texmfs
 /install/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/texmfs/install/fonts/type1
 /public/amsfonts/cm/cmr7.pfb><D:/texmfs/install/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><D:/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on lab2.pdf (8 pages, 294085 bytes).
+Output written on lab2.pdf (8 pages, 294902 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
+ 360 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

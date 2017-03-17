@@ -39,7 +39,7 @@ hold on;
     xlabel('Действительная часть');
     ylabel('Мнимая часть');
     grid on;
-    print('-dpng', strcat(path, 'nyquist'));
+%     print('-dpng', strcat(path, 'nyquist'));
 hold off;
 
 figure;
@@ -49,7 +49,7 @@ hold on;
     title('Диаграмма Боде');
     xlabel('Частота');
     grid on;
-    print('-dpng', strcat(path, 'bode'));
+%     print('-dpng', strcat(path, 'bode'));
 hold off;
 
 figure;
@@ -60,7 +60,7 @@ hold on;
     xlabel('Время');
     ylabel('Амплитуда');
     grid on;
-    print('-dpng', strcat(path, 'step'));
+%     print('-dpng', strcat(path, 'step'));
 hold off;
 
 figure;
@@ -71,7 +71,7 @@ hold on;
     xlabel('Время');
     ylabel('Амплитуда');
     grid on;
-    print('-dpng', strcat(path, 'impulse'));
+%     print('-dpng', strcat(path, 'impulse'));
 hold off;
 
 
@@ -95,5 +95,5 @@ hold on;
     xlabel('X');
     ylabel('dX/dt');
     grid on;
-    print('-dpng', strcat(path, 'ode'));
+%     print('-dpng', strcat(path, 'ode'));
 hold off;

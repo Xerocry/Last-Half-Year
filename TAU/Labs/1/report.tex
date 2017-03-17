@@ -127,14 +127,14 @@ x(p^2+2p+0.75)=up \\
 W(p)=\frac{x}{u}=\frac{p}{p^2+2p+0.75}\\
 $
 
-Добавим входное воздействие, передаточную функцию и выходное воздействие на ВВ модель:
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[scale = 0.55]{images/ou.png}
-	\caption{ВВ модель}
-	\label{image:1}
-\end{figure}
+%Добавим входное воздействие, передаточную функцию и выходное воздействие на ВВ модель:
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[scale = 0.55]{images/ou.png}
+%	\caption{ВВ модель}
+%	\label{image:1}
+%\end{figure}
 
 \clearpage
 
@@ -186,7 +186,7 @@ $x(t<0)=C_1e^{-t/2}+C_2e^{-3*t/2} => x'(t<0)=-t/2C_1e^{-3*t/2}$
 
 \begin{lstlisting}
 syms x(t) dx(t)
-x(t) = dsolve(diff(x, t, 2) + 2 * diff(x, t) + 0.75 * x(t) == 0)
+x(t) = dsolve(diff(x, t, 2) + 2 * diff(x, t) + 0.75 * x(t) == 0.75)
 \end{lstlisting}
 
 В результате было получено:
@@ -214,7 +214,7 @@ $
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale = 0.70]{images/nyquist.png}
+	\includegraphics[scale = 0.90]{images/nyquist.png}
 	\caption{Диаграмма Найквиста}
 	\label{image:3}
 \end{figure}
@@ -239,51 +239,24 @@ $
 \newpage
 Построим переходную характеристика с помощью Matlab функции $step$:
 
-\begin{figure}[htb]
-	\begin{minipage}[c]{0.58\textwidth}
-		\includegraphics[width=\textwidth]{images/step.png}
-	\end{minipage}
+\begin{figure}[h!]
 	\centering
-	\begin{minipage}[c]{0.38\textwidth}
-		\centering
-		\vspace{0pt}
-		\begin{tabular}[b]{cc}\hline
-			Время & Амплитуда \\ \hline
-			&  \\
-			&  \\
-			&  \\
-			&  \\
-			&  \\
-			&  \\ \hline
-		\end{tabular}
-	\end{minipage}
-	
-	\figcaption{Переходная характеристика}\label{fig:sor-v}
+	\includegraphics[scale = 0.7]{images/step.png}
+	%\caption{Фазовый портрет системы при $t\leq0$}
+	\caption{Переходная характеристика системы}
+	\label{image:9}
 \end{figure}
 
 Построим весовую характеристика с помощью Matlab функции $impulse$:\newline
+\newpage
 
-\begin{figure}[htb]
-	\begin{minipage}[c]{0.58\textwidth}
-		\includegraphics[width=\textwidth]{images/impulse.png}
-	\end{minipage}
+\begin{figure}[h!]
 	\centering
-	\begin{minipage}[c]{0.38\textwidth}
-		\centering
-		\vspace{0pt}
-		\begin{tabular}[b]{cc}\hline
-			Время & Амплитуда \\ \hline
-			&  \\
-			&  \\
-			&  \\
-			&  \\
-			&  \\
-			&  \\ \hline
-		\end{tabular}
-	\end{minipage}
-	\figcaption{Весовая характеристика}\label{fig:sor-v}
+	\includegraphics[scale = 0.8]{images/impulse.png}
+	%\caption{Фазовый портрет системы при $t\leq0$}
+	\caption{Весовая характеристика системы}
+	\label{image:9}
 \end{figure}
-
 
 \subsection{Фазовый портрет}
 
@@ -329,7 +302,7 @@ $Y=x'(t), X=x(t)$
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale = 0.43]{images/odeneg.png}
+	\includegraphics[scale = 1]{images/download.png}
 	%\caption{Фазовый портрет системы при $t\leq0$}
 	\caption{Фазовый портрет системы}
 	\label{image:9}
@@ -371,7 +344,7 @@ $x'(t\leq0)=25C_2-25x(t\leq0)$
 	\item \emph{Весовая функция} - реакция динамической системы на входное воздействие в виде единичного импульса. 
 	\item \emph{Фазовый портрет} - Построение фазового портрета позволяет сделать выводы о характере изменений переменных системы без знания аналитических решений исходной системы уравнений.
 \end{itemize}
-
-Благодаря множеству плагинов, математических функций и методов симуляции, Matlab отлично подходит для решения задач, связанных с ТАУ.
+Было установлено, что система является устойчивой по критерию Найквиста, т.к. особая точка находится вне годографа. 
+Matlab отлично подходит для решения задач, связанных с ТАУ.
 
 \end{document}
